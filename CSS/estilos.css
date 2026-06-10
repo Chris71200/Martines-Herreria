@@ -1,0 +1,30 @@
+/* Configuración de la paleta de colores del proyecto */
+:root {
+    --azul-industrial: #0f4c81;
+    --gris-grafito: #334155;
+    --amarillo-obra: #f59e0b;
+}
+
+/* Efecto Frosted Glass estilo iOS para el menú superior */
+.ios-blur {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.70);
+}
+
+/* Dimensiones y estilos del contenedor del Carrusel */
+.swiper {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* Configuración de las tarjetas del efecto Cover Flow */
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
